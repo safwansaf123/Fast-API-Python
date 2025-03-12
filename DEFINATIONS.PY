@@ -11,6 +11,7 @@
 #dependencies installed
 # create program to call or test get-api
 # now run function
+#fastapi dev main.py
 # server   Server started at http://127.0.0.1:8000
 # server   Documentation at http://127.0.0.1:8000/docs ------> this will work like postman
 # server   Documentation at http://127.0.0.1:8000/side_hustles   

@@ -39,7 +39,8 @@ money_quotes = [
     "Money grows on the tree of persistence. – Japanese Proverb",
 ]
 
-
+# api key installed 
+'''
 @app.get("/side_hustles")
 def get_side_hustles(apiKey :str):
     """Returns a random side hustle idea"""
@@ -66,7 +67,6 @@ def get_side_hustles():
 def get_money_quotes():
     """Returns a random money quote"""
     return {"money_quote": random.choice(money_quotes)}
-'''
 
 
 
